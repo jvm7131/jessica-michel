@@ -4,20 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script type="text/javascript" src="script.js"></script>
     <title>Jessica Michel</title>
      <link rel="stylesheet" href="style.css">
 </head>
-
+<script src="script.js"></script>
 <body>
 
     <h1>WELCOME:)</h1>
     <h2>Hi, I'm Jessica!</h2>
 
     <p>
-        I'm a Digital Media, Arts, and Technology student who likes
-        technology, creativity, and making things.
+        I'm a Digital Media, Arts, and Technology student.
     </p>
+
+<button id="changeFlower">Change Flower</button>
+
+<svg id="flower" width="300" height="300" viewBox="0 0 300 300">
+
+    <ellipse cx="150" cy="80" rx="30" ry="60" />
+
+    <ellipse cx="220" cy="150" rx="60" ry="30" />
+
+    <ellipse cx="150" cy="220" rx="30" ry="60" />
+
+    <ellipse cx="80" cy="150" rx="60" ry="30" />
+
+    <circle cx="150" cy="150" r="35">
+        <animate
+            attributeName="r"
+            from="35"
+            to="45"
+            dur="1.5s"
+            repeatCount="indefinite"
+            direction="alternate" />
+    </circle>
+
 
 </body>
 

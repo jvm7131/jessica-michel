@@ -7,3 +7,19 @@ h1{
   text-align: center;
   font-size: 2.5em;
 }
+
+#flower ellipse {
+    fill: purple;
+}
+
+#flower circle {
+    fill: gold;
+}
+
+#flower {
+    transition: transform 0.6s ease;
+}
+
+#flower:hover {
+    transform: rotate(15deg) scale(1.1);
+}
